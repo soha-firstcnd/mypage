@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+    우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="김소하_퍼스트씨앤디" />
+    <meta property="og:description" content="업무 - 바로가기" />
+    <meta property="og:image" content="공유할 이미지" />
+    <title>업무 - 바로가기</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+
+        body {
+            background-color: #666666
+        }
+
+        .profile {
+            width: 100px;
+            height: 100px;
+
+            border-radius: 100%;
+            border: 2px solid #ffffff;
+
+            /*원형 아이콘*/
+            background-image: url(루피.jpg); 
+            background-position: center;
+            background-size: cover;
+        }
+
+        .main {
+            color: #ffffff;
+            font-size: 20px;
+
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        .sub {
+            color: #ffffff;
+            font-size: 14px;
+
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+
+        .wrap{
+            /*박스 중앙정렬*/
+
+            /*박스 설정 
+            background-color: green;
+            */
+
+            width: 300px;
+            margin: 30px auto 0px auto;
+
+            /*박스 내부 중앙정렬*/
+            display: flex;             
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrap > a {
+            width: 300px;
+            height: 50px;
+
+            background-color: #ffffff;
+            border-radius: 50px;
+
+            margin-bottom: 10px;
+            
+            font-size: 14px;
+            font-weight: bold;
+            color: #7c8b6e;
+
+            display: flex;             
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-decoration: none;
+
+            box-shadow: 3px 3px 5px 0px black;
+        }
+
+        .wrap > a:hover{
+            background-color: #f2f2f2;
+            color: #2f352a;
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">바로가기</h1>
+        <p class="sub">김소하_퍼스트씨앤디</p>
+
+        <a target="_blank" href="https://firstcorea.daouoffice.com/app/home">다우 홈</a>
+        <a target="_blank" href="https://www.youtube.com/">유튜브</a>
+        <a target="_blank" href="https://www.notion.so/5e81dd8bd1494b2fb7e607aa28a10d8c">노션 캘린더</a>
+        <a target="_blank" href="https://onedrive.live.com/?authkey=%21AlS6SP5WYOy13gE&id=E1DED88327E4B288%2121891&cid=E1DED88327E4B288&mid=4092A5D483C305AC%21175&mcid=4092A5D483C305AC&sd=1">원드라이브</a>
+        <a target="_blank" href="https://www.naver.com/">네이버</a>
+    </div>
+
+</body>
+</html>
+
+
